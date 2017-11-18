@@ -1,2 +1,2 @@
 # History Project
-This is our first hisotory project
+This is our first history project
