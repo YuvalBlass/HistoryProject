@@ -4803,3 +4803,7 @@ font-family: 'Secular One', sans-serif;
   -webkit-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
 }
+
+.textContent {
+  line-height: 1.8;
+}
