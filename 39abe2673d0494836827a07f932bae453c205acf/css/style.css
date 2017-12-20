@@ -2353,18 +2353,6 @@ font-family: 'Secular One', sans-serif;
  * ========================================
  */
 
-.bg-image-2 {
-  background: url('../images/background-1.jpg');
-  -o-background-size: cover;
-  -ms-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: 50% 50%;
-  background-attachment: initial;
-  background-repeat: no-repeat;
-  background-color: #171717;
-}
 
 .contact-us .single-form-outer {
   padding: 15px;
@@ -4839,9 +4827,23 @@ font-family: 'Secular One', sans-serif;
 }
 
 .bg-6 {
-  background: #1488CC;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: relative;
+  background: url('../images/background-1.jpg');
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.bg-6:before {
+  content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(to right, #2B32B2, #1488CC);
+  opacity: .6; 
+
 }
 
 .nav-bg {
@@ -4850,8 +4852,8 @@ background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, F
   background: linear-gradient(to right, #E7E9BB, #403B4A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
 }
 
-.pera-outer p {
-  color: #616161;
+.pera-outer h6 {
+  color: #e0e0e0;
 }
 
 .icon-arrow-right:before {
