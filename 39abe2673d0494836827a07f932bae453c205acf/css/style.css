@@ -4809,9 +4809,10 @@ font-family: 'Secular One', sans-serif;
 }
 
 .bg-3 {
-  background: #CAC531;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #F3F9A7, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #F3F9A7, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #DCE35B;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 
 .bg-4 {
@@ -4843,7 +4844,6 @@ font-family: 'Secular One', sans-serif;
 	left: 0;
 	background-image: linear-gradient(to right, #2B32B2, #1488CC);
   opacity: .6; 
-
 }
 
 .nav-bg {
