@@ -558,7 +558,4 @@
     $(".email-success").style.display = "block"
   });
 
-
 } (jQuery) );
-
-
