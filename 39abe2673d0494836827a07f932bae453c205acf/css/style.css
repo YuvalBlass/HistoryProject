@@ -4877,3 +4877,8 @@ font-family: 'Secular One', sans-serif;
   background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+#warning {
+  margin-right: 15px;
+  margin-left: 15px;
+}
